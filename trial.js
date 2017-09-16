@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(".intro").ready(function(){
-      $(".yellow-fade").fadeIn(1000);
-    });
+      $(".intro-fade").hide()
+      $(".intro-fade").fadeIn(3000)
+
 });
