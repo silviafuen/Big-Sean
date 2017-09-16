@@ -30,21 +30,17 @@ p, {
 /* TOUR HEADER */
 
 .sean {
-  width: 100%;
+  width: 65%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   height: auto;
 
 }
-.poster {
-  text-align: center;
-  height: 100vh;
-  background-image: url("assets/sean.jpg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
-  padding: 10%;
-}
+
 .intro {
-  padding: 2%;
+  text-align: center;
 }
 .yellow-fade {
     /*display: none;*/
@@ -97,4 +93,19 @@ p, {
   color: #FFE801;
   width: 100%;
   background-color: #fff;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 3%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icons {
+  margin-left: .5%;
+  margin-right: .5%;
+  color: #2B28E0;
+  width: 2%;
 }
